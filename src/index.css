@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 필요한 글로벌 스타일만 최소한으로 추가 */
