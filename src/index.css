@@ -4,32 +4,36 @@
 
 /* 필요한 글로벌 스타일만 최소한으로 추가 */
 
-/*폰트*/
+/* 기본 글씨 색 : 흰색 */
+body {
+  color: white;
+}
+
+/* 폰트 설정 */
 @font-face {
-    font-family: 'PretendardBold';
-    src: url('/fonts/Pretendard-Bold.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'PretendardMedium';
-    src: url('/fonts/Pretendard-Medium.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'PretendardLight';
-    src: url('/fonts/Pretendard-Light.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'PretendardThin';
-    src: url('/fonts/Pretendard-Thin.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
+  font-family: 'PretendardBold';
+  src: url('/fonts/Pretendard-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PretendardMedium';
+  src: url('/fonts/Pretendard-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PretendardLight';
+  src: url('/fonts/Pretendard-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PretendardThin';
+  src: url('/fonts/Pretendard-Thin.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
