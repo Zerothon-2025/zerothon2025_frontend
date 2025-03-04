@@ -1,6 +1,7 @@
 import Banner from "../components/Banner";
 import About from "../components/About";
 import QandA from "../components/QandA";
+import Support from "../components/Support";
 import Footer from "../components/Footer";
 
 
@@ -10,6 +11,7 @@ function MainPage() {
         <Banner/>
         <About/>
         <QandA/>
+        <Support/>
         <Footer/>
       </div>
     );
