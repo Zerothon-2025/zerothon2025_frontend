@@ -36,7 +36,7 @@ function QandA() {
     ];
 
     return (
-        <div className="w-full max-w-[1000px] h-auto">
+        <div className="w-full max-w-[1000px] h-auto mb-20">
             <span className="font-bold text-bold">🤔 자주 묻는 질문</span>
             {questions.map((item, index) => (
                 <QandAItem key={index} question={item.question} answer={item.answer} />
