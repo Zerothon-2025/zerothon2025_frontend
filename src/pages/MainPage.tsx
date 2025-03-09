@@ -5,6 +5,7 @@ import Support from "../components/Support";
 import Footer from "../components/Footer";
 import TimeTable from "../components/TimeTable";
 import Info from "../components/Info";
+import Reward from "../components/Reward";
 
 
 function MainPage() {
@@ -14,6 +15,7 @@ function MainPage() {
         <About/>
         <Info/>
         <TimeTable/>
+        <Reward/>
         <QandA/>
         <Support/>
         <Footer/>
