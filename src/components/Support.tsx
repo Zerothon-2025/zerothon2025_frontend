@@ -2,7 +2,7 @@ function Support() {
     return (
       <div className="flex-col w-full max-w-[1000px] h-auto mb-20">
             <span className="font-bold text-bold">
-            🎁 후원<br/></span>
+            💸 후원<br/></span>
 
 
             <div className="flex bg-white border border-gray-400 rounded-lg mt-4">
