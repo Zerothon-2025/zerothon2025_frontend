@@ -32,7 +32,8 @@ function QandA() {
     const questions: QandAItemProps[] = [
         { question: "참가비는 얼마인가요?", answer: "참가비는 '무료'입니다." },
         { question: "참가 신청은 어떻게 하나요?", answer: "공식 웹사이트에서 신청할 수 있습니다." },
-        { question: "팀으로 참가할 수 있나요?", answer: "네, 개인 또는 팀으로 참가할 수 있습니다." }
+        { question: "개인으로 참가할 수 있나요?", answer: "네, 개인의 경우 랜덤으로 팀이 매칭됩니다." },
+        { question: "당일 늦참 가능한가요?", answer: "불가능합니다. 10시 전에 체크인이 모두 마감됩니다." },
     ];
 
     return (
