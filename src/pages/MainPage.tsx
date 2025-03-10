@@ -6,12 +6,15 @@ import Footer from "../components/Footer";
 import TimeTable from "../components/TimeTable";
 import Info from "../components/Info";
 import Reward from "../components/Reward";
+import ApplyButton from "../components/ApplyButton";
 
 
 function MainPage() {
     return (
       <div className="flex flex-col justify-center items-center pt-5 pb-5 px-20 bg-[#050A1F]">
         <Banner/>
+        
+        <ApplyButton/>
         <About/>
         <Info/>
         <TimeTable/>
