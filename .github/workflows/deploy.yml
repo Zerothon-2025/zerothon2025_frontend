@@ -20,7 +20,6 @@ jobs:
 
         steps:
             - uses: actions/checkout@v3
-
             - name: Use Node.js ${{ matrix.node-version }}
               uses: actions/setup-node@v3
               with:
@@ -37,4 +36,4 @@ jobs:
 
             - name: 디랙토리 이동 및 zerothon-2025.github.io 배포
               run: |
-                  npm run deploy:blog
+                  npm run deploy:blog-ex ${{ secrets.TOKEN }}

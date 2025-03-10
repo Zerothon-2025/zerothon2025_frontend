@@ -3,7 +3,7 @@ const TOKEN = process.argv[2] || null;
 import * as ghpages from "gh-pages";
 
 ghpages.publish(
-  "public",
+  "dist",
   {
     branch: "main",
     repo: TOKEN
