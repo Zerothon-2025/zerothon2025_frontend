@@ -10,7 +10,7 @@ import Reward from "../components/Reward";
 
 function MainPage() {
     return (
-      <div className="flex flex-col justify-center items-center pt-5 pb-5 px-20 bg-black">
+      <div className="flex flex-col justify-center items-center pt-5 pb-5 px-20 bg-[#050A1F]">
         <Banner/>
         <About/>
         <Info/>
