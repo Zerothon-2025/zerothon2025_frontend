@@ -8,7 +8,19 @@ function About() {
             💡 “0부터 시작하는 해커톤”, 개발 경험이 적어도 부담 없이 도전할 수 있는 열린 무대!🔥 단 100시간! 
             창의적인 아이디어를 현실로 만들고, 실전 프로젝트 경험까지!<br/>
             다양한 이벤트와 상품이 마련되어 있어 참가자들이 더욱 즐겁게 몰입할 수 있습니다. 
-            도전과 성장, 그리고 즐거움이 함께하는 제로톤에서 여러분의 가능성을 펼쳐보세요! 🚀</span>
+            도전과 성장, 그리고 즐거움이 함께하는 제로톤에서 여러분의 가능성을 펼쳐보세요! 🚀
+            
+            <br/><br/>
+            ▶️ 더 많은 정보는 인스타그램에서 확인하세요!   <a 
+  href="https://www.instagram.com/zerothon_0.0/" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="text-blue-500 hover:underline"
+>
+  바로가기
+</a> </span>
+
+            
         </div>
     </div>
     
