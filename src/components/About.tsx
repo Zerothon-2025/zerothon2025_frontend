@@ -1,7 +1,7 @@
 
 function About() {
   return (
-    <div className="w-full max-w-[1000px] h-auto ">
+    <div className="w-full max-w-[1000px] h-auto mt-10 ">
         <span className="font-bold text-bold">모두를 위한 해커톤, 제로톤</span>
         <div className="font-medium text-medium w-full max-w-[1000px] h-auto mb-20 p-5">
             <span>🚀 단국대에서 개최되는 전국 해커톤 대회!! ‘제로톤(ZeroThon)’ 해커톤 참가자를 모집합니다! 🎉
