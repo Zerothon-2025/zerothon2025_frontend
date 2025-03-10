@@ -7,7 +7,7 @@ function ApplyButton() {
 
   return (
     <div 
-      className="w-full cursor-pointer mb-10" 
+      className="w-full max-w-[1000px] cursor-pointer mb-10" 
     >
       <button 
         onClick={handleClick} 
