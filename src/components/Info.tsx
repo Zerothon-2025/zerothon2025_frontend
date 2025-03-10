@@ -12,7 +12,7 @@ function Info() {
 
       <img
         className="w-full rounded-xl mt-3 mb-2"
-        src="/Images/location.png"
+        src="/images/location.png"
         alt="Easyspub"
       />
 
