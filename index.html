@@ -8,6 +8,50 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- ChannelIO 삽입 스크립트 시작 -->
+    <script>
+      (function(){
+        var w=window;
+        if(w.ChannelIO){
+          return w.console.error("ChannelIO script included twice.");
+        }
+        var ch=function(){
+          ch.c(arguments);
+        };
+        ch.q=[];
+        ch.c=function(args){
+          ch.q.push(args);
+        };
+        w.ChannelIO=ch;
+        function l(){
+          if(w.ChannelIOInitialized){
+            return;
+          }
+          w.ChannelIOInitialized=true;
+          var s=document.createElement("script");
+          s.type="text/javascript";
+          s.async=true;
+          s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";
+          var x=document.getElementsByTagName("script")[0];
+          if(x.parentNode){
+            x.parentNode.insertBefore(s,x);
+          }
+        }
+        if(document.readyState==="complete"){
+          l();
+        } else {
+          w.addEventListener("DOMContentLoaded",l);
+          w.addEventListener("load",l);
+        }
+      })();
+
+      ChannelIO('boot', {
+        "pluginKey": "d04f8a08-a05e-4168-b0eb-aef8947d0378"
+      });
+    </script>
+    <!-- ChannelIO 삽입 스크립트 끝 -->
+
     <script src="/src/main.tsx" type="module"></script>
   </body>
 </html>
