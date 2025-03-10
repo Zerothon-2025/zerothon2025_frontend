@@ -7,7 +7,7 @@ function Support() {
       </span>
 
       <div className="flex bg-white border border-gray-400 rounded-lg mt-4">
-        <div className="flex-1 flex justify-center ">
+        <div className="flex-1 flex justify-center">
           <img
             src="/logos/crycheese.png"
             alt="Crycheese"
@@ -25,6 +25,13 @@ function Support() {
           <img
             src="/logos/jpub.png"
             alt="Jpub"
+            className="w-32 h-32 object-contain"
+          />
+        </div>
+        <div className="flex-1 flex justify-center">
+          <img
+            src="/logos/hanbitmedia.png"
+            alt="Hanbitmedia"
             className="w-32 h-32 object-contain"
           />
         </div>
