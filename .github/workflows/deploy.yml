@@ -36,4 +36,4 @@ jobs:
 
             - name: 디랙토리 이동 및 zerothon-2025.github.io 배포
               run: |
-                  npm run deploy:blog-ex ${{ secrets.TOKEN }}
+                  npm run deploy:blog -ex ${{ secrets.TOKEN }}
