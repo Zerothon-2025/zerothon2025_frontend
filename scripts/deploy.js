@@ -1,6 +1,6 @@
 const TOKEN = process.argv[2] || null;
 
-const ghpages = require("gh-pages");
+import * as ghpages from "gh-pages";
 
 ghpages.publish(
   "public",
