@@ -11,14 +11,23 @@ function About() {
             도전과 성장, 그리고 즐거움이 함께하는 제로톤에서 여러분의 가능성을 펼쳐보세요! 🚀
             
             <br/><br/>
-            ▶️ 더 많은 정보는 인스타그램에서 확인하세요!   <a 
+            </span>
+            
+            <div className="flex items-center content-center">
+            <span>
+            ▶️ 더 많은 정보는 인스타그램에서 확인하세요!  
+            </span>
+            <img src='/logos/instagram.png' className="w-4 h-4 ml-5 justify-content"/>
+            <a 
   href="https://www.instagram.com/zerothon_0.0/" 
   target="_blank" 
   rel="noopener noreferrer" 
-  className="text-blue-500 hover:underline"
+  className="text-blue-500 hover:underline ml-1"
 >
-  바로가기
-</a> </span>
+  @zerothon_0.0
+</a>
+
+              </div>  
 
             
         </div>
