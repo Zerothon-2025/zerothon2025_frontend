@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 interface QandAItemProps {
     question: string;
@@ -41,6 +41,15 @@ function QandA() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const totalSlides = Math.ceil(questions.length / 3);
 
+    // ⏳ 2초마다 페이지 자동 슬라이드
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentIndex((prevIndex) => (prevIndex + 1) % totalSlides);
+        }, 3000);
+
+        return () => clearInterval(interval);
+    }, [totalSlides]);
+
     return (
         <div className="relative w-full max-w-[1000px] overflow-hidden mx-auto mb-20">
             <span className="font-bold text-bold">🤔 자주 묻는 질문</span>
@@ -48,6 +57,7 @@ function QandA() {
                 className="flex transition-transform duration-500 ease-in-out"
                 style={{ transform: `translateX(-${currentIndex * 100}%)` }}
             >
+                {/* 질문 3개씩 그룹화 */}
                 {Array.from({ length: totalSlides }, (_, i) => (
                     <div key={i} className="min-w-full flex flex-col p-4">
                         {questions.slice(i * 3, i * 3 + 3).map((item, index) => (
@@ -57,7 +67,7 @@ function QandA() {
                 ))}
             </div>
 
-            {/* 페이지네이션 버튼 */}
+            {/* 페이지 버튼 */}
             <div className="flex justify-center mt-4">
                 {Array.from({ length: totalSlides }, (_, i) => (
                     <button
