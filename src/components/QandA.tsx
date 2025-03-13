@@ -41,6 +41,15 @@ function QandA() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const totalSlides = Math.ceil(questions.length / 3);
 
+    // ⏳ 4초마다 자동 슬라이드
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentIndex((prevIndex) => (prevIndex + 1) % totalSlides);
+        }, 4000);
+
+        return () => clearInterval(interval);
+    }, [totalSlides]);
+
     return (
         <div className="relative w-full max-w-[1000px] overflow-hidden mx-auto mb-20">
             <span className="font-bold text-bold">🤔 자주 묻는 질문</span>
