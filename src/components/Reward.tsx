@@ -6,7 +6,7 @@ function Reward() {
           
           <img className="w-full mt-5 rounded-2xl mb-5" src="/images/reward.png" alt="Easyspub"/>
           <span className="font-medium text-medium">
-          📢 상품 외에 참여자 모두를 위한 제로톤만의 시크릿 기프트가 준비되어있습니다!<br/></span>
+          📢 상품 외에 참여자 모두를 위한 제로톤만의 특별한 굿즈가 준비되어있습니다!<br/></span>
             
       </div>
       
