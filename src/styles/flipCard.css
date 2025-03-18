@@ -11,19 +11,16 @@
     transform: perspective(800px)rotateY(180deg);
     cursor: pointer; 
 }
-  .card > * {
+.card > * {
     /*w-full rounded-xl mt-3 mb-2*/
-    width: 100%;         /* w-full */
-    border-radius: 12px; /* rounded-xl (보통 12px) */
-    margin-top: 12px;    /* mt-3 (보통 12px) */
-    margin-bottom: 8px;  /* mb-2 (보통 8px) */
+    width: 100%;   
+    border-radius: 12px; 
+    margin-top: 12px;   
+    margin-bottom: 8px; 
     backface-visibility: hidden;
     grid-area: 1 / 1 / 1 / 1;
-  }
+}
 
-  .card-front { 
-    
-   }
-  .card-back { 
+.card-back { 
     transform: rotateY(180deg);
-   }
+}
