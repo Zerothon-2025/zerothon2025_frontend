@@ -4,12 +4,13 @@ function ApplyButton() {
   };
 
   return (
-    <div className="w-full max-w-[1000px] cursor-pointer">
+    <div className="w-full max-w-[1000px]">
       <button
         onClick={handleClick}
-        className="w-full h-14 bg-blue-600 text-white font-bold rounded-xl hover:bg-blue-700 transition shadow-lg"
+        className="w-full h-14 bg-blue-600 text-white font-bold rounded-xl hover:bg-blue-700 transition shadow-lg disabled:bg-gray-400 disabled:cursor-not-allowed"
+        disabled
       >
-        지원하기
+        신청이 조기 마감되었습니다.
       </button>
     </div>
   );
