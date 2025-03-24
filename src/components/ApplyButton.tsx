@@ -10,7 +10,7 @@ function ApplyButton() {
         className="w-full h-14 bg-blue-600 text-white font-bold rounded-xl hover:bg-blue-700 transition shadow-lg disabled:bg-gray-400 disabled:cursor-not-allowed"
         disabled
       >
-        신청이 조기 마감되었습니다.
+        신청 종료
       </button>
     </div>
   );
