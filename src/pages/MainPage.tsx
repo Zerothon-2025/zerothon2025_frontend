@@ -30,9 +30,6 @@ function MainPage() {
         <Support />
         <Footer />
       </div>
-      <div className="fixed flex items-center justify-center w-full bottom-10 px-10 sm:px-20">
-        <ApplyButton />
-      </div>
     </div>
   );
 }
