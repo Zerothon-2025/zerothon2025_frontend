@@ -11,6 +11,7 @@ import Reward from "../components/Reward";
 import Howto from "../components/Howto";
 import ApplyButton from "../components/ApplyButton.tsx";
 import consoleArt from "../utils/consoleArt.ts";
+import Title from "../components/Title.tsx";
 
 function MainPage() {
   useEffect(() => {
@@ -22,6 +23,7 @@ function MainPage() {
       <div className="flex flex-col justify-center items-center pt-5 pb-20 px-10 bg-[#050A1F] sm:px-20 sm:pt-5 sm:pb-20">
         <Banner />
         <About />
+        <Title/>
         <Howto />
         <Info />
         <TimeTable />
